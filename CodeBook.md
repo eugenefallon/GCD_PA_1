@@ -19,8 +19,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 ## Record level details  
-For each record it is provided:
-======================================
+The following is provided for each record:
+
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -31,7 +31,7 @@ For each record it is provided:
 
 ## The dataset files
 The dataset includes the following files:
-=========================================
+
 
 - 'README.txt'
 
@@ -78,15 +78,15 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 The script "run_analysis.R", located in this repository, is the complete sequence of steps performed against this data set.  Please review the R script for additional details.  
   
 The following is a summary of the processing performed by "run_analysis.R"
-1) Setup - load all required packages and libraries
-2) Download the raw data to the working directory
-3) unzip the dataset downloaded
-4) Load activity labels and data column names
-5) Load and process the test data
-6) Load and process the train data
-7) Merge the test and train data into a single data set
-8) Tidy the dataset from step 7 using the melt() function
-9) Apply the mean to all variables
-10) Write our tidy dataset out to "tidy_data.txt" in the working directory
+1. Setup - load all required packages and libraries
+2. Download the raw data to the working directory
+3. unzip the dataset downloaded
+4. Load activity labels and data column names
+5. Load and process the test data
+6. Load and process the train data
+7. Merge the test and train data into a single data set
+8. Tidy the dataset from step 7 using the melt() function
+9. Apply the mean to all variables
+10. Write our tidy dataset out to "tidy_data.txt" in the working directory
   
 
