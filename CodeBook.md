@@ -77,16 +77,17 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 ## Data processing details
 The script "run_analysis.R", located in this repository, is the complete sequence of steps performed against this data set.  Please review the R script for additional details.  
   
-The following is a summary of the processing performed by "run_analysis.R"
-1. Setup - load all required packages and libraries
-2. Download the raw data to the working directory
-3. unzip the dataset downloaded
-4. Load activity labels and data column names
-5. Load and process the test data
-6. Load and process the train data
-7. Merge the test and train data into a single data set
-8. Tidy the dataset from step 7 using the melt() function
-9. Apply the mean to all variables
-10. Write our tidy dataset out to "tidy_data.txt" in the working directory
+The following is a summary of the processing performed by "run_analysis.R"  
+  
+1. Setup - load all required packages and libraries  
+2. Download the raw data to the working directory  
+3. unzip the dataset downloaded  
+4. Load activity labels and data column names  
+5. Load and process the test data  
+6. Load and process the train data  
+7. Merge the test and train data into a single data set  
+8. Tidy the dataset from step 7 using the melt() function  
+9. Apply the mean to all variables  
+10. Write our tidy dataset out to "tidy_data.txt" in the working directory  
   
 
